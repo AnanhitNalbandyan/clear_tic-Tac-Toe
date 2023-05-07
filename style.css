@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    width: 600px;
+    height: 600px;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    color: lightseagreen;
+    margin-bottom: 10px;
+}
+
+.winner{
+    text-align: center;
+    color: rgb(229, 30, 30);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.field{
+    margin: auto auto 100px 150px;
+    width: 303px;
+    height: 303px;
+    border: black ridge 1px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.box{
+    width:100px;
+    height:100px;
+    border: black ridge 1px;
+}
+.boxX{
+    background-color: red;
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+    text-size-adjust: 56px;
+}
+.boxO{
+    background-color: yellow;
+    border: 1px solid violet;
+    width: 100px;
+    height: 100px;
+    text-size-adjust: 56px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(247, 156, 158);
+    text-align: center;
+    font-size: larger;
+    color: blue;
+    margin: 0 250px;
+}
